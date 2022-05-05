@@ -1,32 +1,8 @@
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; background-color:#f5f7fa;
 }
     
-   
-a {
-    text-decoration: none;
-}
-    
-    
-ul,
-ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-    
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-
 
 
 /* main styles */
@@ -34,28 +10,99 @@ p {
 .main{
     display:flex;
     flex-direction:row-reverse;
-    background-color:#f5f7fa;
     width:1200px;
     margin:0 auto;
 }
 
 .main-contant{
     background-color:#ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
 }
 
 
 /* about styles */
 
 .about{
-    background-color: ;
+    margin-bottom: 40px;
 }
 
+.about-position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about-discription{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px
+}
 
 /* projects styles */
 
+
 .projects{
+    margin-bottom: 50px;
+}
+
+
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.projects-list{
+    padding: 0;
+    margin-left: 15px;
 }
  
+.project-item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24pf; 
+    color: #000000;
+}
+
+.project,
+.project-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+.project-link{
+    margin-left: 10px;
+}
+.project-bracket{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
 
 
 /* work styles */
